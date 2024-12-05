@@ -18,3 +18,6 @@ pip cache purge
 
 echo "[config] checking upgraded python version ..."
 python --version
+
+echo "[config] checking python package versions ..."
+pip list
