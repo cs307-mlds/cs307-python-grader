@@ -6,7 +6,7 @@ python -c 'import sys;print("%x" % sys.maxsize, sys.maxsize > 2**32)'
 
 echo "[install] upgrading python version ..."
 mamba activate
-mamba install python=3.12.5 --yes
+mamba install python=3.12.8 --yes
 
 echo "[install] latest pip version ..."
 pip install --upgrade pip
