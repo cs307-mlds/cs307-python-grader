@@ -13,8 +13,8 @@ seaborn==0.13.2
 
 # cs 307 specific (torch)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.1
-torchvision==0.20.1
+torch==2.6.0
+torchvision==0.21.0
 
 # needed for pl grader
 beautifulsoup4==4.12.3
